@@ -15,7 +15,7 @@ const ResearchImage = ({ src, alt, show }: Props) => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          className="absolute top-[10%] my-auto aspect-video w-full rounded-2xl bg-[#000000] lg:top-0 lg:bottom-0"
+          className="absolute top-[10%] my-auto aspect-video h-fit w-full rounded-2xl bg-[#000000] lg:top-0 lg:bottom-0"
         >
           <Image src={src} alt={alt} layout="fill" objectFit="contain" />
         </motion.div>
